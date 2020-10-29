@@ -16,7 +16,7 @@ $(document).ready(function(){
                 loop: true
             },
             1000: {
-                items: 3,
+                items: 4,
                 nav: true,
                 loop: true,
                 margin: 20

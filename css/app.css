@@ -3,11 +3,14 @@ html,body{
 }
 body{
     font-family: CAIRO;
-    overflow: hidden;
+    overflow: auto;
 }
 .navbar-brand img {
 
     height: 60px;
+}
+.nav-link{
+    color: black;
 }
 .nav-item {
     text-align: left;
@@ -125,7 +128,7 @@ button.navbar-toggler:focus {
     border-radius: 7% ;
     margin: 0 auto; 
     float: none; 
-    margin-right: 3rem;
+   
     margin-top: 2rem;
 
 }
@@ -159,18 +162,19 @@ button:focus {
     
     border-radius: 50px;
 }
+.more{
+    text-align: center;
+}
 .watch-more {
-
-    margin-right: 550px;
     background-color: #233142;
     color: white;
     padding: 10px 80px;
-    margin-left: 62px;
     border-radius: 50px;
-    box-shadow: 5px 5px 15px #888888;
-    margin-bottom: 99px;
-    margin-top: 57px;
+    box-shadow: 5px 5px 15px #888888; 
+    margin-top: 45px;
+    margin-bottom: 70px;
 }
+
 .card-shadow{
     
     box-shadow: 5px 5px 15px #888888;
@@ -183,7 +187,9 @@ button:focus {
     margin-left: 62px;
     border-radius: 50px;
 }
-
+.our-work{
+    padding-right: 1rem;
+}
 /*our client section*/
 
 .owl-item-active{
@@ -205,7 +211,7 @@ button:focus {
 }
 
 .pagination{
-    padding-right: 36rem;
+    text-align: center;
 
 }
 
@@ -249,19 +255,13 @@ button:focus {
     background-image: url(../imgs/bg30-Ar1web.gif);
 }
 .vertical-line {
-    border-right: 5px solid #3AADE6;
+    margin-top: 2rem;
+    margin-right: 2rem;
+    border-right: 4px solid #3AADE6;
     height: 50px;
-    margin: 2rem;
+    margin-bottom: 2rem;
 }
-.container-fluid {
-    width: 100%;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 9rem;
-    text-align: center;
-}
+
 
 
 .articles-page{
